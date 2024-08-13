@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Stopwatch display -->
+<div id="stopwatch">00:00:00</div>
+
+<!-- Buttons -->
+<button onclick="startTimer()">Start</button>
+<button onclick="stopTimer()">Stop</button>
+<button onclick="resetTimer()">Reset</button>
+<button onclick="lapTimer()">Lap</button>
+
+<!-- Lap history log -->
+<div id="lap-log"></div>
+
+<!-- Style selector -->
+<select id="style-selector">
+  <option value="digital">Digital</option>
+  <option value="analog">Analog</option>
+  <option value="retro">Retro</option>
+</select>
+
+<!-- Share button -->
+<button onclick="shareTime()">Share</button>
+    <script src="./script.js"></script>
+</body>
+</html>
